@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96C5301D1A73567400EF68F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5301C1A73567400EF68F3 /* AppDelegate.swift */; };
+		96C5301F1A73567400EF68F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C5301E1A73567400EF68F3 /* ViewController.swift */; };
+		96C530221A73567400EF68F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C530201A73567400EF68F3 /* Main.storyboard */; };
+		96C530241A73567400EF68F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C530231A73567400EF68F3 /* Images.xcassets */; };
+		96C530271A73567400EF68F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C530251A73567400EF68F3 /* LaunchScreen.xib */; };
+		96C530331A73567400EF68F3 /* PlayThatSongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C530321A73567400EF68F3 /* PlayThatSongTests.swift */; };
+		96C530451A73569700EF68F3 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C530441A73569700EF68F3 /* InterfaceController.swift */; };
+		96C530471A73569700EF68F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C530461A73569700EF68F3 /* Images.xcassets */; };
+		96C5304B1A73569700EF68F3 /* PlayThatSong WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 96C5304A1A73569700EF68F3 /* PlayThatSong WatchKit App.app */; };
+		96C530531A73569700EF68F3 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96C530511A73569700EF68F3 /* Interface.storyboard */; };
+		96C530551A73569700EF68F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96C530541A73569700EF68F3 /* Images.xcassets */; };
+		96C530581A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 96C530401A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96C530631A735D5A00EF68F3 /* 01 Rag Doll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C530601A735D5A00EF68F3 /* 01 Rag Doll.mp3 */; };
+		96C530641A735D5A00EF68F3 /* 32 Cryin'.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C530611A735D5A00EF68F3 /* 32 Cryin'.mp3 */; };
+		96C530651A735D5A00EF68F3 /* 32 I dont want to miss a thing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 96C530621A735D5A00EF68F3 /* 32 I dont want to miss a thing.mp3 */; };
+		96C530671A735DD100EF68F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C530661A735DD100EF68F3 /* AVFoundation.framework */; };
+		96C530691A7389E400EF68F3 /* WatchKitInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C530681A7389E400EF68F3 /* WatchKitInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96C5302D1A73567400EF68F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C5300F1A73567300EF68F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C530161A73567400EF68F3;
+			remoteInfo = PlayThatSong;
+		};
+		96C5304C1A73569700EF68F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C5300F1A73567300EF68F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C530491A73569700EF68F3;
+			remoteInfo = "PlayThatSong WatchKit App";
+		};
+		96C530561A73569700EF68F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C5300F1A73567300EF68F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C5303F1A73569700EF68F3;
+			remoteInfo = "PlayThatSong WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96C5305F1A73569700EF68F3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				96C530581A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96C530171A73567400EF68F3 /* PlayThatSong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayThatSong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C5301B1A73567400EF68F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C5301C1A73567400EF68F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96C5301E1A73567400EF68F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96C530211A73567400EF68F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96C530231A73567400EF68F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96C530261A73567400EF68F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96C5302C1A73567400EF68F3 /* PlayThatSongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayThatSongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C530311A73567400EF68F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C530321A73567400EF68F3 /* PlayThatSongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayThatSongTests.swift; sourceTree = "<group>"; };
+		96C530401A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PlayThatSong WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C530431A73569700EF68F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C530441A73569700EF68F3 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		96C530461A73569700EF68F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96C5304A1A73569700EF68F3 /* PlayThatSong WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayThatSong WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C530501A73569700EF68F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C530521A73569700EF68F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		96C530541A73569700EF68F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96C530601A735D5A00EF68F3 /* 01 Rag Doll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Rag Doll.mp3"; sourceTree = "<group>"; };
+		96C530611A735D5A00EF68F3 /* 32 Cryin'.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32 Cryin'.mp3"; sourceTree = "<group>"; };
+		96C530621A735D5A00EF68F3 /* 32 I dont want to miss a thing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "32 I dont want to miss a thing.mp3"; sourceTree = "<group>"; };
+		96C530661A735DD100EF68F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96C530681A7389E400EF68F3 /* WatchKitInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchKitInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96C530141A73567400EF68F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C530671A735DD100EF68F3 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C530291A73567400EF68F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5303D1A73569700EF68F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96C5300E1A73567300EF68F3 = {
+			isa = PBXGroup;
+			children = (
+				96C530191A73567400EF68F3 /* PlayThatSong */,
+				96C5302F1A73567400EF68F3 /* PlayThatSongTests */,
+				96C530411A73569700EF68F3 /* PlayThatSong WatchKit Extension */,
+				96C5304E1A73569700EF68F3 /* PlayThatSong WatchKit App */,
+				96C530181A73567400EF68F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96C530181A73567400EF68F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96C530171A73567400EF68F3 /* PlayThatSong.app */,
+				96C5302C1A73567400EF68F3 /* PlayThatSongTests.xctest */,
+				96C530401A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex */,
+				96C5304A1A73569700EF68F3 /* PlayThatSong WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96C530191A73567400EF68F3 /* PlayThatSong */ = {
+			isa = PBXGroup;
+			children = (
+				96C5301C1A73567400EF68F3 /* AppDelegate.swift */,
+				96C5301E1A73567400EF68F3 /* ViewController.swift */,
+				96C530681A7389E400EF68F3 /* WatchKitInfo.swift */,
+				96C530201A73567400EF68F3 /* Main.storyboard */,
+				96C530231A73567400EF68F3 /* Images.xcassets */,
+				96C530251A73567400EF68F3 /* LaunchScreen.xib */,
+				96C5301A1A73567400EF68F3 /* Supporting Files */,
+			);
+			path = PlayThatSong;
+			sourceTree = "<group>";
+		};
+		96C5301A1A73567400EF68F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C530661A735DD100EF68F3 /* AVFoundation.framework */,
+				96C530601A735D5A00EF68F3 /* 01 Rag Doll.mp3 */,
+				96C530611A735D5A00EF68F3 /* 32 Cryin'.mp3 */,
+				96C530621A735D5A00EF68F3 /* 32 I dont want to miss a thing.mp3 */,
+				96C5301B1A73567400EF68F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C5302F1A73567400EF68F3 /* PlayThatSongTests */ = {
+			isa = PBXGroup;
+			children = (
+				96C530321A73567400EF68F3 /* PlayThatSongTests.swift */,
+				96C530301A73567400EF68F3 /* Supporting Files */,
+			);
+			path = PlayThatSongTests;
+			sourceTree = "<group>";
+		};
+		96C530301A73567400EF68F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C530311A73567400EF68F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C530411A73569700EF68F3 /* PlayThatSong WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				96C530441A73569700EF68F3 /* InterfaceController.swift */,
+				96C530461A73569700EF68F3 /* Images.xcassets */,
+				96C530421A73569700EF68F3 /* Supporting Files */,
+			);
+			path = "PlayThatSong WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		96C530421A73569700EF68F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C530431A73569700EF68F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C5304E1A73569700EF68F3 /* PlayThatSong WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				96C530511A73569700EF68F3 /* Interface.storyboard */,
+				96C530541A73569700EF68F3 /* Images.xcassets */,
+				96C5304F1A73569700EF68F3 /* Supporting Files */,
+			);
+			path = "PlayThatSong WatchKit App";
+			sourceTree = "<group>";
+		};
+		96C5304F1A73569700EF68F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C530501A73569700EF68F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96C530161A73567400EF68F3 /* PlayThatSong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C530361A73567400EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong" */;
+			buildPhases = (
+				96C530131A73567400EF68F3 /* Sources */,
+				96C530141A73567400EF68F3 /* Frameworks */,
+				96C530151A73567400EF68F3 /* Resources */,
+				96C5305F1A73569700EF68F3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C530571A73569700EF68F3 /* PBXTargetDependency */,
+			);
+			name = PlayThatSong;
+			productName = PlayThatSong;
+			productReference = 96C530171A73567400EF68F3 /* PlayThatSong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96C5302B1A73567400EF68F3 /* PlayThatSongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C530391A73567400EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSongTests" */;
+			buildPhases = (
+				96C530281A73567400EF68F3 /* Sources */,
+				96C530291A73567400EF68F3 /* Frameworks */,
+				96C5302A1A73567400EF68F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C5302E1A73567400EF68F3 /* PBXTargetDependency */,
+			);
+			name = PlayThatSongTests;
+			productName = PlayThatSongTests;
+			productReference = 96C5302C1A73567400EF68F3 /* PlayThatSongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96C5303F1A73569700EF68F3 /* PlayThatSong WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C5305C1A73569700EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong WatchKit Extension" */;
+			buildPhases = (
+				96C5303C1A73569700EF68F3 /* Sources */,
+				96C5303D1A73569700EF68F3 /* Frameworks */,
+				96C5303E1A73569700EF68F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96C5304D1A73569700EF68F3 /* PBXTargetDependency */,
+			);
+			name = "PlayThatSong WatchKit Extension";
+			productName = "PlayThatSong WatchKit Extension";
+			productReference = 96C530401A73569700EF68F3 /* PlayThatSong WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		96C530491A73569700EF68F3 /* PlayThatSong WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96C530591A73569700EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong WatchKit App" */;
+			buildPhases = (
+				96C530481A73569700EF68F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PlayThatSong WatchKit App";
+			productName = "PlayThatSong WatchKit App";
+			productReference = 96C5304A1A73569700EF68F3 /* PlayThatSong WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C5300F1A73567300EF68F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "icarus media";
+				TargetAttributes = {
+					96C530161A73567400EF68F3 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = A37XGG2825;
+					};
+					96C5302B1A73567400EF68F3 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 96C530161A73567400EF68F3;
+					};
+					96C5303F1A73569700EF68F3 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					96C530491A73569700EF68F3 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = A37XGG2825;
+					};
+				};
+			};
+			buildConfigurationList = 96C530121A73567300EF68F3 /* Build configuration list for PBXProject "PlayThatSong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96C5300E1A73567300EF68F3;
+			productRefGroup = 96C530181A73567400EF68F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96C530161A73567400EF68F3 /* PlayThatSong */,
+				96C5302B1A73567400EF68F3 /* PlayThatSongTests */,
+				96C5303F1A73569700EF68F3 /* PlayThatSong WatchKit Extension */,
+				96C530491A73569700EF68F3 /* PlayThatSong WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96C530151A73567400EF68F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C530641A735D5A00EF68F3 /* 32 Cryin'.mp3 in Resources */,
+				96C530221A73567400EF68F3 /* Main.storyboard in Resources */,
+				96C530271A73567400EF68F3 /* LaunchScreen.xib in Resources */,
+				96C530241A73567400EF68F3 /* Images.xcassets in Resources */,
+				96C530631A735D5A00EF68F3 /* 01 Rag Doll.mp3 in Resources */,
+				96C530651A735D5A00EF68F3 /* 32 I dont want to miss a thing.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5302A1A73567400EF68F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5303E1A73569700EF68F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5304B1A73569700EF68F3 /* PlayThatSong WatchKit App.app in Resources */,
+				96C530471A73569700EF68F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C530481A73569700EF68F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C530531A73569700EF68F3 /* Interface.storyboard in Resources */,
+				96C530551A73569700EF68F3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96C530131A73567400EF68F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C5301F1A73567400EF68F3 /* ViewController.swift in Sources */,
+				96C5301D1A73567400EF68F3 /* AppDelegate.swift in Sources */,
+				96C530691A7389E400EF68F3 /* WatchKitInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C530281A73567400EF68F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C530331A73567400EF68F3 /* PlayThatSongTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C5303C1A73569700EF68F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C530451A73569700EF68F3 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96C5302E1A73567400EF68F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C530161A73567400EF68F3 /* PlayThatSong */;
+			targetProxy = 96C5302D1A73567400EF68F3 /* PBXContainerItemProxy */;
+		};
+		96C5304D1A73569700EF68F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C530491A73569700EF68F3 /* PlayThatSong WatchKit App */;
+			targetProxy = 96C5304C1A73569700EF68F3 /* PBXContainerItemProxy */;
+		};
+		96C530571A73569700EF68F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C5303F1A73569700EF68F3 /* PlayThatSong WatchKit Extension */;
+			targetProxy = 96C530561A73569700EF68F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96C530201A73567400EF68F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C530211A73567400EF68F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96C530251A73567400EF68F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C530261A73567400EF68F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		96C530511A73569700EF68F3 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96C530521A73569700EF68F3 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96C530341A73567400EF68F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96C530351A73567400EF68F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96C530371A73567400EF68F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PlayThatSong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96C530381A73567400EF68F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PlayThatSong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96C5303A1A73567400EF68F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayThatSongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayThatSong.app/PlayThatSong";
+			};
+			name = Debug;
+		};
+		96C5303B1A73567400EF68F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlayThatSongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayThatSong.app/PlayThatSong";
+			};
+			name = Release;
+		};
+		96C5305A1A73569700EF68F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PlayThatSong_WatchKit_Extension;
+				INFOPLIST_FILE = "PlayThatSong WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		96C5305B1A73569700EF68F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = PlayThatSong_WatchKit_Extension;
+				INFOPLIST_FILE = "PlayThatSong WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		96C5305D1A73569700EF68F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlayThatSong WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		96C5305E1A73569700EF68F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PlayThatSong WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96C530121A73567300EF68F3 /* Build configuration list for PBXProject "PlayThatSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C530341A73567400EF68F3 /* Debug */,
+				96C530351A73567400EF68F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C530361A73567400EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C530371A73567400EF68F3 /* Debug */,
+				96C530381A73567400EF68F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C530391A73567400EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5303A1A73567400EF68F3 /* Debug */,
+				96C5303B1A73567400EF68F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C530591A73569700EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5305A1A73569700EF68F3 /* Debug */,
+				96C5305B1A73569700EF68F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96C5305C1A73569700EF68F3 /* Build configuration list for PBXNativeTarget "PlayThatSong WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C5305D1A73569700EF68F3 /* Debug */,
+				96C5305E1A73569700EF68F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C5300F1A73567300EF68F3 /* Project object */;
+}
